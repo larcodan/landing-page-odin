@@ -70,6 +70,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
 .one-right {
@@ -99,12 +100,17 @@ ul {
     color: #E5E7EB;
 }
 
+.one-subtext {
+}
+
 .sign-up {
+    width: 120px;
+    font-size: 18px;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 4px;
+    border-radius: 6px;
     border: none;
-    padding: 8px 20px;
+    padding: 6px 20px;
 }
 
 
@@ -119,7 +125,7 @@ ul {
     flex: 1, 1, 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 
@@ -134,23 +140,27 @@ ul {
 .info-boxes {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 
 .two-box {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .two-image {
-    height: 100px;
-    width: 100px;
-    border: black, solid;
+    height: 150px;
+    width: 150px;
+    border: 4px, solid, #3882F6;
+    border-radius: 8px;
 }
 
 .two-text {
-    max-width: 100px;
+    max-width: 150px;
+    text-align: center;
+    color: grey;
 }
 
 
@@ -163,10 +173,11 @@ ul {
 }
 
 .three-content {
-    width: 1000px;
+    width: 800px;
     flex: 1, 1, 0;
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .quote {
@@ -196,11 +207,14 @@ ul {
     display: flex;
     background-color: #3882F6;
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
+    border-radius: 6px;
 }
 
 .four-text {
-
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .four-maintext {
