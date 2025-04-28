@@ -118,12 +118,13 @@ ul {
     flex-direction: column;
 }
 
-.two-title, .info-boxes {
-    flex: 1;
-}
+
 
 .two-title {
     text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .info-boxes {
@@ -132,9 +133,22 @@ ul {
     gap: 20px;
 }
 
-.info {
-    max-width: 200px;
+
+.two-box {
+    display: flex;
+    flex-direction: column;
 }
+
+.two-image {
+    height: 100px;
+    width: 100px;
+    border: black, solid;
+}
+
+.two-text {
+    max-width: 100px;
+}
+
 
 
 .container-three {
@@ -151,7 +165,11 @@ ul {
     flex-direction: column;
 }
 
-
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
 
 .signature {
     text-align: right;
@@ -169,12 +187,29 @@ ul {
     width: 1000px;
     flex: 1, 1, 0;
     display: flex;
-    flex-direction: column;
+    background-color: #3882F6;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.box-text {
-    text-align: center;
+.four-text {
+
 }
+
+.four-main {
+
+}
+
+.four-sub {
+    
+}
+
+.four-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .footer {
     padding: 20px;
