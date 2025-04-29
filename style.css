@@ -22,10 +22,6 @@ body {
     justify-content: space-between;
 }
 
-.header div {
-    /* border: black solid; */
-}
-
 .head-links a {
     text-decoration: none;
     color: #E5E7EB;
@@ -43,11 +39,6 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
-}
-
-.body div{
-    /* border: black solid; */
-    
 }
 
 .container-one{
@@ -99,9 +90,6 @@ body {
 .one-subtext {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.one-subtext {
 }
 
 .sign-up {
