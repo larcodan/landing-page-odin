@@ -1,2 +1,2 @@
 # Landing Page Project
-This project will demonstrate my knowledge on html and css, more specifically my use of the flexbox method. I have been given an image of a website and through the skills and knowledge I have obtained, My goal is to recreate it to the best of my ability. 
+This project will demonstrate my knowledge on html and css, more specifically my use of the flexbox method. I have been given an image of a website and through the skills and knowledge I have obtained, My goal is to recreate it to the best of my ability.
