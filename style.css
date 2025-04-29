@@ -26,11 +26,12 @@ body {
     /* border: black solid; */
 }
 
-a {
+.head-links a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
-ul {
+.head-right ul {
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -95,7 +96,7 @@ ul {
     font-weight: 900;
 }
 
-.one-subtext, .head-links {
+.one-subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -111,6 +112,7 @@ ul {
     border-radius: 6px;
     border: none;
     padding: 6px 20px;
+    cursor: pointer;
 }
 
 
@@ -236,6 +238,11 @@ ul {
 
 .four-button .sign-up {
     border: 2px solid white;
+}
+
+.four-button .sign-up:hover {
+    background-color: white;
+    color: #3882F6;
 }
 
 
